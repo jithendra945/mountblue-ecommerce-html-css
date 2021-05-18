@@ -1,7 +1,7 @@
 # eCommerce Html-CSS
 
 Click the link to see the website hosted on Heroku.
-https://git.heroku.com/jithendra-ecommerce-html-css.git/
+https://jithendra-ecommerce-html-css.herokuapp.com/
 
 
 Or
