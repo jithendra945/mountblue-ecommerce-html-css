@@ -27,8 +27,11 @@ body {
     }
 }
 
-.mi-home{
+.primary-color{
     color: #FF6700 !important;
+}
+
+.mi-home{
     font-weight: bold;
     font-size: 23px;
 }
@@ -50,7 +53,50 @@ body {
     margin-right: 0px !important;
 }
 
+.margin-top{
+    margin-top: 20px;
+}
+
+.details-margin{
+    margin-top: 4%;
+}
+
 del{
     color: red;
     font-size: small;
+}
+
+.product-details{
+    margin: 0px 32px;
+}
+
+.color-grey{
+    color: #757575;
+
+}
+
+.price {
+    margin: 16px 0 20px;
+    font-size: 16px;
+}
+
+.quantity-align{
+    display: inline-flex;
+}
+
+.label-align{
+    margin-right: 10px;
+    padding-top: 7px;
+}
+
+.highlight-margin{
+    margin-top: 10px;
+}
+
+.price-margin{
+    margin-left: 10px;
+}
+
+.cart-align{
+    margin-top: 35px;
 }

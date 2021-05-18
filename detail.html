@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+        <a class="navbar-brand" href="ecommerce.html">
+            <img src="images/logo/xiaomi_logo.jpg" alt="Xiaomi" style="width: 40px;">
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link mi-home" href="ecommerce.html">Mi Home</a>
+            </li>
+        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav bg-dark m-0 ml-lg-auto p-3 p-lg-0">
+                <li class="nav-item hover-blue">
+                    <a class="nav-link text-truncate" href="#Smartphones">Smartphones</a>
+                </li>
+                <li class="nav-item hover-blue">
+                    <a class="nav-link text-truncate" href="#TVs">TVs</a>
+                </li>
+                <li class="nav-item hover-blue">
+                    <a class="nav-link text-truncate" href="#Laptops">Laptops</a>
+                </li>
+                <li class="nav-item hover-blue">
+                    <a class="nav-link text-truncate" href="#Audio">Audio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 margin-lr-zero margin-top">
+        <div class="col mb-4">
+            <img src="images/smartphones/note10HD.jpg" class="card-img-top" alt="Note10">
+        </div>
+        <div class="col mb-4 details-margin">
+            <div class="product-details">
+                <h2>Redmi Note 10 Pro Max</h2>
+                <div class="price primary-color">₹19,999<del class="color-grey price-margin">₹25,999</del></div>
+                <div class="form-group quantity-align">
+                    <label for="sel1" class="label-align color-grey">Quantity:</label>
+                    <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="color-grey highlight-margin">Highlights:</p>
+                    <ul>
+                        <li>
+                            6 GB RAM | 128 GB ROM | Expandable Upto 512 GB
+                        </li>
+                        <li>
+                            16.94 cm (6.67 inch) Full HD+ Display
+                        </li>
+                        <li>
+                            108MP + 8MP + 5MP + 2MP | 16MP Front Camera
+                        </li>
+                        <li>
+                            5020 mAh Li-Polymer Battery
+                        </li>
+                        <li>
+                            Qualcomm Snapdragon 732G Processor
+                        </li>
+                    </ul>
+                </div>
+                <p class="color-grey highlight-margin">Warranty:</p>
+
+                1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for
+                In-box Accessories Including Batteries from the Date of Purchase
+
+                <br>
+                <br>
+                <a href="cart.html" class="btn btn-primary">
+                    Add to Cart
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-66px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</body>
+
+</html>
