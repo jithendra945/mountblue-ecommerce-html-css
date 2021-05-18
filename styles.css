@@ -1,0 +1,56 @@
+body {
+    padding-top: 55px;
+}
+
+/* mobile navbar sidebar under lg breakpoint */
+@media (max-width: 768px) {
+    
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -25%;
+        transition: all 0.2s ease;
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 200px;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+}
+
+.mi-home{
+    color: #FF6700 !important;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.hover-blue:hover{
+    border-bottom: 1px solid #FF6700 !important;
+  }
+
+.text-center{
+    text-align: center;
+}
+
+.width80{
+    width: 80%;
+}
+
+.margin-lr-zero{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+del{
+    color: red;
+    font-size: small;
+}
