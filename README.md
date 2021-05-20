@@ -6,7 +6,7 @@ https://jithendra-ecommerce-html-css.herokuapp.com/
 
 Or
 
-open ecommerce.html file in browser to see the website.
+Open ecommerce.html file in browser to see the website.
 
 
-NOTE: php file and json file are added, so that it hosts successfully on Heroku.
+NOTE: PHP file and JSON file are added, so that it recognises as a PHP project and hosts successfully on Heroku.
