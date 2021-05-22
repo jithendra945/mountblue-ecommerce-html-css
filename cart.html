@@ -15,6 +15,7 @@
 
 <body>
 
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
         <a class="navbar-brand" href="ecommerce.html">
             <img src="images/logo/xiaomi_logo.jpg" alt="Xiaomi" class="width40px">
@@ -54,9 +55,12 @@
         </div>
     </nav>
 
+    <!-- Main content-->
     <div class="container frame cart-align">
         <h3 class="text-center">Your Cart</h3>
         <p class="color-grey text-center">(2 items)</p>
+
+        <!-- Displaying data in Table-->
         <div class="table-responsive-sm">
             <table class="table table-hover table-borderless">
                 <thead>
@@ -104,6 +108,7 @@
             </table>
         </div>
 
+        <!-- Button to move to Checkout page-->
         <a href="checkout.html" class="btn btn-primary float-right">
             Proceed to Checkout <i class="fa fa-sign-out mr-1"></i>
         </a>
@@ -113,6 +118,7 @@
     <br>
     <br>
 
+    <!-- Footer-->
     <footer>
         <p class="color-grey mb-1">
             Made by jithendra
@@ -122,6 +128,7 @@
         </p>
     </footer>
 
+    <!-- navbar top adjust-->
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
@@ -135,6 +142,7 @@
         }
     </script>
 
+    <!-- close navbar when click on anywhere-->
     <script>
         $(document).ready(function () {
             $(document).click(function (event) {
